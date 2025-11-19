@@ -4,7 +4,7 @@ A responsive and organized Student Directory Portal built with React + Vite. Thi
 
 🚀 Live Demo
 
-Live Website: (student-dir.vercel.app)
+Live Website: (https://student-dir.vercel.app/)
 
 
 GitHub Repository: (https://github.com/nakshathradileep/student_dir.git)
