@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  margin: 0;
+  color: black; 
+}
+
+
+header, footer {
+  background: #e0e0e0;
+  text-align: center;
+  color: black;
+}
+
+
+section h2 {
+  color: black;
+}
+
+
+.student-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.student-card {
+  width: 250px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  position: relative;
+  color: black; 
+}
+
+
+.skill-badge {
+  display: inline-block;
+  background: #dcdcdc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 3px;
+  color: black; 
+}
+
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: white; 
+  font-weight: bold;
+}
+
+.active {
+  background: green;
+}
+
+.inactive {
+  background: gray;
+}
+
+
+.stats {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  color: black; 
+}
